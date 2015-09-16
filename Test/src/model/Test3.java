@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Test3 {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner derp = new Scanner(System.in);
 		System.out.println("Input integer: ");
-		
 		int c = derp.nextInt();
 		String cumulative_sum = "Cumulative sum: ";
 		String inputs = "Inputs: ";

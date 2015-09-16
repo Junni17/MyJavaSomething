@@ -11,16 +11,20 @@ public class Test4 {
 		String adjacent_dublicates = "Adjacent dublicates: ";
 		int previous_number = c;
 
+		// hvad sker der her?
+		boolean first_input = true;
 
 		while (c != 0) {
 			System.out.println("Input integer: ");
 			c = derp.nextInt();
-	
-			if (c == previous_number && !adjacent_dublicates.contains(Integer.toString(previous_number))) {
+			// hvad sker der her med first input?
+			if (first_input != true && c == previous_number) {
 				adjacent_dublicates += String.valueOf(previous_number);
 			}
 			previous_number = c;
 
+			// hvad sker der her - igen?
+			first_input = false;
 		}
 
 		System.out.println(adjacent_dublicates);

@@ -1,0 +1,22 @@
+package exercises;
+
+public class ex3 {
+	
+	/*Example 7
+	We want to draw 20 vertical lines with a distance of 8. The first line has to be at x = 10. So the xvalues
+	of the lines will be 10, 18, 26, 34, and so forth.
+	These x-values fit in with the formula 10 + i * 8, where i is the index variable: i = 0, 1, 2, …, 19.
+	A way to make the drawing is to use a for-statement:*/
+			
+	private void drawShapes(GraphicsContext gc)
+	 {
+	 int y1 = 30; // start point: (x,y1)
+	 int y2 = 60; // end point: (x,y2)
+	 for (int i = 0; i < 20; i++) {
+	 int x = 10 + i * 8;
+	 gc.strokeLine(x, y1, x, y2);
+	 }
+	 }
+	
+
+}
