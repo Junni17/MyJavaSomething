@@ -18,6 +18,7 @@ public class P4_2 {
 		} else if (a < 0) {
 			System.out.println("Negative");
 		}
+		scanner.close();
 	}
 
 }

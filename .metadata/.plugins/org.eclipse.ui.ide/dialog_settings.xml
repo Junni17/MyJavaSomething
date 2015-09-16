@@ -5,6 +5,8 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Jonas N A\Desktop\JavaWorkSpace"/>
+			<item value="C:\Users\Jonas N A\Desktop\JavaWorkSpace\Lecture 1 August 26"/>
 			<item value="C:\Users\Jonas\OneDrive\Workspace\Test"/>
 			<item value="C:\Users\Jonas\OneDrive\Workspace\Shapes"/>
 			<item value="C:\Users\Jonas\OneDrive\Workspace\Lecture 6"/>

@@ -18,6 +18,7 @@ public class P4_5 {
 		} else {
 			System.out.println("Neither");
 		}
+		scanner.close();
 	}
 
 }

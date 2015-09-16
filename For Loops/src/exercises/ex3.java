@@ -65,13 +65,13 @@ public class ex3 extends Application
     		
     		int x = 5 + i * 17 ;
     		
-    		gc.strokeLine(x, y + 5, x, y - 5);
+
     		
     		if (i % 5 == 0){
-    			gc.strokeLine(x, y - 5, x, y + 5);
-    			gc.fillText(Integer.toString(i), x, y + 25);
-    			
-    		
+    			gc.strokeLine(x, y - 10, x, y + 10);
+    			gc.fillText(Integer.toString(i), x, y + 25);		
+    		}else{
+        		gc.strokeLine(x, y + 5, x, y - 5);
     		}
     		
     	}

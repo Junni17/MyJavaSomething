@@ -14,6 +14,8 @@ public class P4_1 {
 		} else if (a > 0) {
 			System.out.println("Interger is positive");
 		}
+		in.close();
+		
 	}
 
 }
