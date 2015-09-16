@@ -1,0 +1,14 @@
+package exercise_2;
+
+public class Snippet {
+	private void drawShapes(GraphicsContext gc) {
+		int x = 20; // start point: (x1, y1)
+		int y1 = 190;
+		int y2 = 10;
+		while (x <= 180) {
+			gc.strokeLine(x, y1, x, y2);
+			x = x + 40;
+		}
+	}
+}
+

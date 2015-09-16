@@ -1,0 +1,25 @@
+package exercise_4;
+
+import java.util.Scanner;
+
+public class P5_1e {
+
+	// @SuppressWarnings("resource")
+	// public static void main(String[] args) {
+	// Scanner n = new Scanner(System.in);
+	// System.out.println("Input integer a: ");
+	// int a = n.nextInt();
+	// System.out.println("Input integer b: ");
+	// int b = n.nextInt();
+	// int sum = 0;
+	// for (int i = Math.min(a, b); i <= Math.max(a, b); i++) {
+	// if (i % 2 != 0) {
+	// sum = sum + i;
+	// }
+	// }
+	// System.out.println("Sum of odd numbers between the two inputs: " + sum);
+	// }
+
+public static void main (String [] args)
+
+}

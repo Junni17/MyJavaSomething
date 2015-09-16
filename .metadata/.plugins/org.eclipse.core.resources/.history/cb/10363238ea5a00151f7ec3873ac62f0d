@@ -1,0 +1,18 @@
+package model;
+
+public class Bella_er_dejlig {
+
+	public static void main(String[] args) {
+
+		String a = "Bella er sød";
+		String b = "Bella er dejlig";
+		String c = "Bella er min kæreste <3";
+		String d = "Bella er smuk";
+		String e = "Bella er klog";
+		String f = "Bella er fantastisk";
+
+		System.out.println(a);
+
+	}
+
+}

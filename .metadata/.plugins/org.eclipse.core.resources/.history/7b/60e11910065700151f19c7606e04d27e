@@ -1,0 +1,14 @@
+package exercise_3;
+
+import java.util.Scanner;
+
+public class P5_1d {
+
+	public static void main(String[] args) {
+		Scanner n = new Scanner(System.in);
+		System.out.println("Input integer 1: ");
+		int a = n.nextInt();
+		System.out.println("Input integer 2: ");
+	}
+
+}

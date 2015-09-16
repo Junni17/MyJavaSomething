@@ -1,0 +1,29 @@
+package model;
+
+import java.util.Scanner;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+		Scanner derp = new Scanner(System.in);
+		System.out.println("Input integer: ");
+		int c = derp.nextInt();
+		String b = "";
+		int sum = c;
+
+		b = String.valueOf(c) + " ";
+
+		while (c != 0) {
+			System.out.println("Input integer: ");
+			c = derp.nextInt();
+			if (c != 0) {
+				sum = sum + c;
+				b = b + String.valueOf(sum) + " ";
+			}
+		}
+
+		System.out.println(b);
+		derp.close();
+	}
+
+}

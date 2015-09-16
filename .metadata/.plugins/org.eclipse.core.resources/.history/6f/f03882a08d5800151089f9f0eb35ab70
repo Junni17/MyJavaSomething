@@ -1,0 +1,24 @@
+package exercise_4;
+
+import java.util.Scanner;
+
+public class P5_1e {
+
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.print("Input integer: ");
+		int a = in.nextInt();
+		int sum = 0;
+		while (a != 0) {
+			int b = a % 10;
+			if (b % 2 != 0) {
+				sum = sum + b;
+			}
+			a = a / 10;
+		}
+		System.out.println("Sum of odd numbers: " + sum);
+
+	}
+
+}
