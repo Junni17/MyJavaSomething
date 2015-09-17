@@ -76,14 +76,16 @@ public class ex3_1 extends Application
     private void drawShapes(GraphicsContext gc){
     	
     	double x = 180;
-    	double y1 = 190;
-    	double y2 = y1-126;
+    	double y2 = 190;
+    	double y1 = 64;
+    	
+
     	
     	while (x >= 5){
-    		gc.strokeLine(20, y1, x, y2);
+    		gc.strokeLine(x, y1, x, y2);
     		x = x * 0.75;
-//    		y1 = y1 + 0.1 * x;
-//    		y2 = y2 - 0.05 * x;
+    		
+
     	}
     	
     }
